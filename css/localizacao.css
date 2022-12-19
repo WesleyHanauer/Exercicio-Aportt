@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #006699;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #Map {
+    height: 30vh;
+    width: 15vw;
+    border: 1px solid #cccccc;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #006699;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #003366;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }

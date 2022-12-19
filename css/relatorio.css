@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #006699;
+}
+p{
+    color: black;
+}
+#imagemRelatorio{
+    width: 15vw;
+}
+table, th, td{
+    border: 1px solid black;
+    color: black;
+}
+  @media screen and (max-width: 750px) {
+    tbody, thead { float: left; }
+    thead { min-width: 120px }
+    td,th { display: block }
+    #imagemRelatorio{
+        width: 50vw;
+    }
+}
